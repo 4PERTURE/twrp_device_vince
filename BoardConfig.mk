@@ -96,6 +96,11 @@ BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 
 # TWRP Configuration
 TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/recovery.fstab
+
+# System as root
+BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
+
+# TWRP specific build flags
 RECOVERY_SDCARD_ON_DATA := true
 TARGET_RECOVERY_QCOM_RTC_FIX := true
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/soc/7000000.ssusb/7000000.dwc3/gadget/lun0/file"
