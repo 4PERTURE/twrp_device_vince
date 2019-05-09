@@ -1,2 +1,2 @@
-add_lunch_combo dot_vince-userdebug
-add_lunch_combo dot_vince-eng
+add_lunch_combo aosip_vince-userdebug
+add_lunch_combo aosip_vince-eng
