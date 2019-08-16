@@ -1,1 +1,3 @@
-add_lunch_combo beast_vince-userdebug
+add_lunch_combo potato_vince-eng
+add_lunch_combo potato_vince-userdebug
+add_lunch_combo potato_vince-user
